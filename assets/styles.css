@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Baloo 2", cursive;
+  overflow: hidden;
+}
+
+.wrapper {
+  background: url(svg6.svg);
+  background-repeat: repeat;
+}
+
+#obj {
+  position: absolute;
+  min-width: 75px;
+  max-width: 250px;
+  border: 2px solid #c10000;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+#notice {
+  width: 20%;
+  min-width: 375px;
+  margin: auto auto;
+  padding: 0.5%;
+  background-color: #ffffff;
+  border: 2px solid #c10000;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.3em;
+  color: #32324e;
+}
