@@ -16,7 +16,7 @@ var height = window.innerHeight;
 var x = pos(width);
 var y = pos(height);
 var ow;
-if (width / 9.5 < 250) ow = Math.floor(width * 0.11);
+if (width *0.07 < 250) ow = Math.floor(width * 0.07);
 else ow = 200;
 var oh = ow * 1.25;
 
